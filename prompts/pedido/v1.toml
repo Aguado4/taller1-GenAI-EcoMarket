@@ -1,0 +1,24 @@
+# Versión 1 — Línea base: el "prompt básico" literal del enunciado.
+# Ejercicio 1 del taller: estado de pedido dado un número de seguimiento.
+#
+# Intencionalmente NO se le entrega la base de datos de pedidos ni un rol.
+# Es exactamente el ejemplo que el PDF llama "prompt básico"
+# ("Dame el estado del pedido 12345") y sirve como punto de comparación
+# para evidenciar qué aporta el contexto y las técnicas aplicadas en v2.
+#
+# Nota técnica: como esta plantilla no contiene el placeholder
+# {pedidos_json}, app.py simplemente no inyecta el catálogo. El contraste
+# contra v2 es justamente el objetivo del ejercicio.
+
+[meta]
+version = 1
+tecnica = "zero-shot sin contexto (línea base)"
+descripcion = "Prompt mínimo del enunciado, sin rol, sin datos y sin instrucciones de formato."
+
+[prompts]
+role_prompt = """
+"""
+
+instruction_prompt = """
+Dame el estado del pedido {tracking_number}.
+"""

@@ -1,0 +1,21 @@
+# Versión 1 — Prompt básico (zero-shot)
+# Ejercicio 2 del taller: guiar al cliente en el proceso de devolución.
+
+[meta]
+version = 1
+tecnica = "zero-shot"
+descripcion = "Prompt mínimo que solo pide evaluar si un producto se puede devolver."
+
+[prompts]
+role_prompt = """
+Eres un asistente de servicio al cliente de EcoMarket.
+"""
+
+instruction_prompt = """
+El cliente quiere devolver el producto: {producto}.
+
+Información del producto (formato JSON):
+{producto_json}
+
+Dime si se puede devolver y qué debe hacer el cliente.
+"""

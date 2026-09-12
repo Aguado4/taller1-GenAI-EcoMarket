@@ -1,0 +1,22 @@
+# Versión 2 — TODO: escribe aquí tu prompt mejorado.
+#
+# Placeholders disponibles (se reemplazan en app.py, no usan str.format):
+#   {tracking_number}  -> número de seguimiento consultado
+#   {pedidos_json}     -> contenido de data/pedidos.json como texto JSON
+#
+# Ideas para mejorar sobre v1 (ver prompt-engineering-sample/README.md):
+# role prompting, delimitadores, few-shot, reglas condicionales, chain-of-thought...
+
+[meta]
+version = 2
+tecnica = "TODO"
+descripcion = "TODO"
+
+[prompts]
+role_prompt = """
+TODO
+"""
+
+instruction_prompt = """
+TODO
+"""

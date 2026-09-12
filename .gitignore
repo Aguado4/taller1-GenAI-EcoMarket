@@ -1,0 +1,7 @@
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+venv/
+# outputs/ SI se versiona: son la evidencia de las corridas para la entrega

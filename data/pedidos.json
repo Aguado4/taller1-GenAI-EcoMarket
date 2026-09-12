@@ -1,0 +1,109 @@
+{
+  "TRK-1001": {
+    "cliente": "Ana Restrepo",
+    "producto": "Botella reutilizable de acero inoxidable 750ml",
+    "estado": "en_transito",
+    "fecha_pedido": "2026-08-28",
+    "fecha_estimada_entrega": "2026-09-12",
+    "ciudad_destino": "Bogotá",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1001",
+    "retrasado": false
+  },
+  "TRK-1002": {
+    "cliente": "Carlos Pena",
+    "producto": "Set de cubiertos de bambú (4 piezas)",
+    "estado": "entregado",
+    "fecha_pedido": "2026-08-20",
+    "fecha_estimada_entrega": "2026-08-27",
+    "fecha_entrega_real": "2026-08-26",
+    "ciudad_destino": "Medellín",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1002",
+    "retrasado": false
+  },
+  "TRK-1003": {
+    "cliente": "Luisa Fernanda Gomez",
+    "producto": "Jabón artesanal de avena (paquete x3)",
+    "estado": "en_transito",
+    "fecha_pedido": "2026-08-30",
+    "fecha_estimada_entrega": "2026-09-08",
+    "ciudad_destino": "Cali",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1003",
+    "retrasado": true,
+    "motivo_retraso": "Congestión en centro de distribución regional"
+  },
+  "TRK-1004": {
+    "cliente": "Jorge Andres Diaz",
+    "producto": "Mochila de fibras recicladas 20L",
+    "estado": "procesando",
+    "fecha_pedido": "2026-09-09",
+    "fecha_estimada_entrega": "2026-09-18",
+    "ciudad_destino": "Barranquilla",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1004",
+    "retrasado": false
+  },
+  "TRK-1005": {
+    "cliente": "Maria Camila Torres",
+    "producto": "Champú sólido natural",
+    "estado": "cancelado",
+    "fecha_pedido": "2026-08-15",
+    "fecha_estimada_entrega": "2026-08-22",
+    "ciudad_destino": "Bucaramanga",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1005",
+    "retrasado": false,
+    "motivo_cancelacion": "Solicitado por el cliente antes del envío"
+  },
+  "TRK-1006": {
+    "cliente": "Pedro Ramirez",
+    "producto": "Kit de popotes de acero con cepillo",
+    "estado": "en_transito",
+    "fecha_pedido": "2026-09-01",
+    "fecha_estimada_entrega": "2026-09-10",
+    "ciudad_destino": "Bogotá",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1006",
+    "retrasado": true,
+    "motivo_retraso": "Condiciones climáticas en ruta"
+  },
+  "TRK-1007": {
+    "cliente": "Natalia Suarez",
+    "producto": "Desodorante natural en barra",
+    "estado": "entregado",
+    "fecha_pedido": "2026-08-25",
+    "fecha_estimada_entrega": "2026-09-01",
+    "fecha_entrega_real": "2026-09-01",
+    "ciudad_destino": "Pereira",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1007",
+    "retrasado": false
+  },
+  "TRK-1008": {
+    "cliente": "Andres Felipe Lopez",
+    "producto": "Set de contenedores de vidrio para alimentos (3 uds)",
+    "estado": "en_transito",
+    "fecha_pedido": "2026-09-05",
+    "fecha_estimada_entrega": "2026-09-14",
+    "ciudad_destino": "Cartagena",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1008",
+    "retrasado": false
+  },
+  "TRK-1009": {
+    "cliente": "Valentina Rojas",
+    "producto": "Cepillo de dientes de bambú (paquete x4)",
+    "estado": "procesando",
+    "fecha_pedido": "2026-09-08",
+    "fecha_estimada_entrega": "2026-09-16",
+    "ciudad_destino": "Manizales",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1009",
+    "retrasado": false
+  },
+  "TRK-1010": {
+    "cliente": "Sebastian Mora",
+    "producto": "Bolsas reutilizables de malla para mercado (set x5)",
+    "estado": "entregado",
+    "fecha_pedido": "2026-08-18",
+    "fecha_estimada_entrega": "2026-08-24",
+    "fecha_entrega_real": "2026-08-29",
+    "ciudad_destino": "Bogotá",
+    "url_rastreo": "https://ecomarket.com/rastreo/TRK-1010",
+    "retrasado": true,
+    "motivo_retraso": "Dirección incompleta requirió reconfirmación"
+  }
+}
