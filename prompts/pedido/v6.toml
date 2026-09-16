@@ -1,0 +1,57 @@
+# Versión 6 — Igual a v5, más instrucción explícita de personalizar con
+# el nombre del cliente.
+#
+# Hallazgo: en v2/v3 el modelo a veces saludaba por el nombre del cliente
+# de forma espontánea (porque el dato está en pedidos_json), pero al
+# agregar en v4 la instrucción de tono "profesional, sin emojis", dejó de
+# hacerlo de forma consistente (ver outputs/pedido_v4.txt y v5.txt: el
+# saludo con nombre desaparece). Se agrega la instrucción explícita para
+# no depender de que el modelo lo haga por su cuenta.
+#
+# Nota: esto solo aplica al ejercicio de pedido, porque data/pedidos.json
+# tiene el campo "cliente"; data/productos.json no tiene ningún dato de
+# cliente (es un catálogo de productos, no de compras), así que no aplica
+# a devolucion/v*.toml.
+
+[meta]
+version = 6
+tecnica = "v5 + instrucción explícita de personalizar con el nombre del cliente"
+descripcion = "Igual a v5, agregando que la respuesta debe dirigirse al cliente por su nombre."
+
+[prompts]
+role_prompt = """
+Actúa como un agente de servicio al cliente amable.
+"""
+
+instruction_prompt = """
+Proporciona el estado actual del pedido con el número de seguimiento '{tracking_number}'. Incluye una estimación de la fecha de entrega y un enlace para rastrear el paquete en tiempo real. Si el pedido está retrasado, ofrece una disculpa y una breve explicación, sin importar si el pedido ya fue entregado o sigue en tránsito. Dirígete al cliente por su nombre para que la respuesta sea más amigable y personalizada.
+
+Usa únicamente la información de la base de datos de pedidos que aparece abajo; no inventes ni asumas ningún dato que no esté ahí. No repitas nombres de campos ni valores técnicos tal cual aparecen en el JSON (por ejemplo, no digas cosas como "en_transito" o "retrasado: true"); explica esa información en lenguaje natural. No uses emojis en tu respuesta; mantén un tono profesional y cordial solo con palabras.
+
+A continuación, algunos ejemplos de cómo responder según el estado del pedido (los números de pedido y nombres de cliente de estos ejemplos son solo ilustrativos, no forman parte de la base de datos real):
+
+Ejemplo 1 — pedido en tránsito, sin retraso:
+Entrada: pedido EJ-0001, cliente "Ana Ejemplo", estado "en_transito", fecha_estimada_entrega "2026-05-10", retrasado false.
+Respuesta: "Hola Ana, tu pedido EJ-0001 se encuentra actualmente en tránsito. La fecha estimada de entrega es el 2026-05-10. Puedes seguir su recorrido en tiempo real en el siguiente enlace de rastreo."
+
+Ejemplo 2 — pedido entregado, sin retraso:
+Entrada: pedido EJ-0002, cliente "Luis Ejemplo", estado "entregado", fecha_entrega_real "2026-04-02", retrasado false.
+Respuesta: "Hola Luis, tu pedido EJ-0002 ya fue entregado el 2026-04-02. Si tienes algún problema con el producto recibido, con gusto te ayudo a resolverlo."
+
+Ejemplo 3 — pedido en tránsito, retrasado:
+Entrada: pedido EJ-0003, cliente "Marta Ejemplo", estado "en_transito", retrasado true, motivo_retraso "problema logístico en el punto de origen".
+Respuesta: "Hola Marta, lamentamos informarte que tu pedido EJ-0003 presenta un retraso debido a un problema logístico en el punto de origen. Te pedimos disculpas por el inconveniente y estamos trabajando para que llegue lo antes posible."
+
+Ejemplo 4 — pedido cancelado:
+Entrada: pedido EJ-0004, cliente "Pedro Ejemplo", estado "cancelado", motivo_cancelacion "solicitado por el cliente".
+Respuesta: "Hola Pedro, tu pedido EJ-0004 fue cancelado, según quedó registrado a solicitud tuya. Si deseas realizar un nuevo pedido o tienes alguna duda al respecto, estoy aquí para ayudarte."
+
+Ejemplo 5 — pedido entregado, pero que sí estuvo retrasado (los dos estados pueden combinarse, uno no excluye al otro):
+Entrada: pedido EJ-0005, cliente "Sofía Ejemplo", estado "entregado", fecha_entrega_real "2026-06-20", retrasado true, motivo_retraso "dirección incompleta requirió reconfirmación".
+Respuesta: "Hola Sofía, tu pedido EJ-0005 ya fue entregado el 2026-06-20. Sin embargo, queremos disculparnos porque la entrega presentó un retraso debido a que la dirección requirió reconfirmación antes del envío. Agradecemos tu paciencia."
+
+Ahora responde la consulta real del cliente siguiendo el mismo estilo.
+
+Base de datos de pedidos (formato JSON):
+{pedidos_json}
+"""

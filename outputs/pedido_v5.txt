@@ -1,0 +1,39 @@
+============================================================
+[2026-09-15 19:22:16] pedido v5 | consulta: TRK-1003
+============================================================
+Tu pedido TRK‑1003 se encuentra actualmente en tránsito. La entrega está estimada para el 2026‑09‑08. Puedes seguir su progreso en tiempo real en el siguiente enlace: https://ecomarket.com/rastreo/TRK-1003.  
+
+Lamentamos el retraso, que se debe a una congestión en el centro de distribución regional. Pedimos disculpas por cualquier inconveniente.
+
+============================================================
+[2026-09-15 19:22:36] pedido v5 | consulta: TRK-1005
+============================================================
+Tu pedido TRK‑1005 fue cancelado a solicitud tuya antes de que se enviara. La fecha estimada de entrega habría sido el 2026‑08‑22. Puedes consultar el estado en el siguiente enlace: https://ecomarket.com/rastreo/TRK-1005. Si deseas realizar un nuevo pedido o tienes alguna duda, estoy aquí para ayudarte.
+
+============================================================
+[2026-09-15 19:22:56] pedido v5 | consulta: TRK-1010
+============================================================
+Tu pedido TRK‑1010 ya fue entregado el 29 de agosto de 2026.  
+Sin embargo, queremos disculparnos porque la entrega se retrasó debido a que la dirección proporcionada requería una reconfirmación antes de enviarlo. Agradecemos tu paciencia y comprensión.  
+
+Puedes revisar el historial de envío y confirmar la entrega en el siguiente enlace de rastreo:  
+[https://ecomarket.com/rastreo/TRK-1010](https://ecomarket.com/rastreo/TRK-1010)
+
+============================================================
+[2026-09-15 19:23:13] pedido v5 | consulta: TRK-1004
+============================================================
+Tu pedido TRK-1004 se encuentra actualmente en proceso de preparación. La fecha estimada de entrega es el 2026‑09‑18. Puedes seguir su recorrido en tiempo real en el siguiente enlace de rastreo: https://ecomarket.com/rastreo/TRK-1004.
+
+============================================================
+[2026-09-15 19:23:32] pedido v5 | consulta: trk-1003
+============================================================
+Tu pedido TRK‑1003 está actualmente en tránsito. La fecha estimada de entrega es el 2026‑09‑08. Puedes seguir su recorrido en tiempo real en el siguiente enlace de rastreo:  
+[https://ecomarket.com/rastreo/TRK-1003](https://ecomarket.com/rastreo/TRK-1003)
+
+Lamentamos el retraso, que se debe a una congestión en el centro de distribución regional. Pedimos disculpas por cualquier inconveniente que esto pueda ocasionar.
+
+============================================================
+[2026-09-15 19:23:50] pedido v5 | consulta: TRK-7777
+============================================================
+Lo siento, pero no encontramos ningún pedido con el número de seguimiento **TRK-7777** en nuestro sistema. Si crees que hubo un error al proporcionar el número, por favor verifica el código y vuelve a intentarlo. Estoy aquí para ayudarte con cualquier otra consulta que tengas.
+

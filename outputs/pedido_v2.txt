@@ -1,0 +1,97 @@
+============================================================
+[2026-09-15 19:18:35] pedido v2 | consulta: TRK-1003
+============================================================
+¡Hola Luisa! 👋
+
+Gracias por contactarnos. Aquí tienes la información actualizada de tu pedido **TRK‑1003**:
+
+| Detalle | Información |
+|---------|-------------|
+| **Estado** | En tránsito |
+| **Fecha estimada de entrega** | 8 de septiembre 2026 |
+| **Ciudad de destino** | Cali |
+| **Enlace de rastreo** | [Rastrear mi paquete](https://ecomarket.com/rastreo/TRK-1003) |
+
+**Lo sentimos mucho por la demora**. El envío está retrasado debido a una congestión en el centro de distribución regional, lo que ha afectado el tiempo de entrega. Estamos trabajando para que llegue lo antes posible y te mantendremos informada de cualquier actualización.
+
+Agradecemos tu paciencia y comprensión. Si necesitas más ayuda o tienes alguna otra pregunta, no dudes en decírnoslo. ¡Estamos aquí para ayudarte! 🌟
+
+============================================================
+[2026-09-15 19:18:37] pedido v2 | consulta: TRK-1005
+============================================================
+¡Hola! 👋🏼
+
+**Estado del pedido TRK‑1005**  
+- **Cliente:** María Camila Torres  
+- **Producto:** Champú sólido natural  
+- **Estado actual:** **Cancelado**  
+- **Motivo de la cancelación:** Solicitado por el cliente antes del envío.  
+
+Como el pedido fue cancelado antes de salir de nuestro centro de distribución, no hay una fecha de entrega prevista. Si necesitas reordenar el producto o tienes alguna otra consulta, no dudes en decírmelo.  
+
+🔗 **Enlace para rastrear el pedido** (solo para referencia):  
+[https://ecomarket.com/rastreo/TRK-1005](https://ecomarket.com/rastreo/TRK-1005)
+
+Lamentamos cualquier inconveniente y estamos a tu disposición para ayudarte con cualquier otra solicitud. ¡Que tengas un excelente día! 🌟
+
+============================================================
+[2026-09-15 19:18:39] pedido v2 | consulta: TRK-1010
+============================================================
+¡Hola, Sebastian! 👋  
+
+**Estado del pedido (TRK‑1010)**  
+- **Producto:** Bolsas reutilizables de malla para mercado (set x5)  
+- **Estado:** **Entregado**  
+- **Fecha estimada de entrega:** 24 agosto 2026  
+- **Fecha real de entrega:** 29 agosto 2026  
+- **Ciudad destino:** Bogotá  
+
+Lamentamos mucho el retraso en la entrega. La dirección proporcionada estaba incompleta, lo que requirió una reconfirmación y provocó que el envío llegara 5 días después de la fecha estimada. Agradecemos tu paciencia y comprensión.
+
+Puedes ver el historial completo y el estado actual de tu envío en tiempo real a través del siguiente enlace:
+
+🔗 [Rastrear TRK‑1010](https://ecomarket.com/rastreo/TRK-1010)
+
+Si necesitas más ayuda o tienes alguna otra pregunta, no dudes en contactarnos. ¡Gracias por confiar en nosotros! 🌟
+
+============================================================
+[2026-09-15 19:18:40] pedido v2 | consulta: TRK-1004
+============================================================
+¡Hola, Jorge! 👋  
+
+Aquí tienes la información actualizada de tu pedido **TRK-1004**:
+
+| Detalle | Información |
+|---------|-------------|
+| **Producto** | Mochila de fibras recicladas 20 L |
+| **Estado** | En proceso de preparación |
+| **Fecha estimada de entrega** | **18 de septiembre de 2026** |
+| **Ciudad destino** | Barranquilla |
+| **Enlace de rastreo** | [Rastrear tu paquete](https://ecomarket.com/rastreo/TRK-1004) |
+
+Todo está en marcha y no hay retrasos en tu envío. Si necesitas más ayuda o tienes alguna otra pregunta, no dudes en decírmelo. ¡Gracias por confiar en nosotros! 🚚✨
+
+============================================================
+[2026-09-15 19:18:50] pedido v2 | consulta: trk-1003
+============================================================
+¡Hola! 👋🏼
+
+**Estado del pedido TRK‑1003**  
+- **Cliente:** Luisa Fernanda Gómez  
+- **Producto:** Jabón artesanal de avena (paquete x3)  
+- **Estado actual:** En tránsito  
+- **Fecha estimada de entrega:** **08 de septiembre 2026**  
+- **Enlace de rastreo en tiempo real:** [Rastrear TRK‑1003](https://ecomarket.com/rastreo/TRK-1003)
+
+Lamentablemente, tu envío está **retrasado** debido a una congestión en el centro de distribución regional. Nos disculpamos por cualquier inconveniente que esto pueda causarte. Estamos trabajando para que llegue lo antes posible y te mantendremos informado de cualquier novedad.
+
+Si necesitas más ayuda o tienes alguna otra pregunta, no dudes en decírmelo. ¡Gracias por tu paciencia y por elegirnos! 🌿
+
+============================================================
+[2026-09-15 19:19:02] pedido v2 | consulta: TRK-7777
+============================================================
+¡Hola!  
+He revisado nuestra base de datos y no encuentro ningún pedido con el número de seguimiento **TRK-7777**. Es posible que haya un error en el número que proporcionaste o que el pedido aún no haya sido registrado en nuestro sistema.
+
+Si necesitas ayuda con otro número de seguimiento o con cualquier otra consulta, por favor házmelo saber. ¡Estoy aquí para ayudarte!
+

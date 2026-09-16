@@ -1,0 +1,27 @@
+# Versión 3 — Igual a v2 (rol + instrucción del desafío + datos), más dos
+# constraints de grounding: no filtrar nombres/valores técnicos del JSON
+# tal cual, y no inventar pasos/plazos/políticas que no estén en los datos.
+#
+# Motivación (ver evidencia en outputs/): al probar v2, el modelo repitió
+# literalmente el valor "no_devolvible" del JSON, y en otro caso inventó
+# pasos de logística (etiqueta por correo, oficina de correos) que no
+# estaban en ningún dato ni en el prompt. Estas dos frases lo corrigen.
+
+[meta]
+version = 3
+tecnica = "v2 + constraints anti-fuga de datos internos y anti-alucinación (mismo patrón que pedido/v3)"
+descripcion = "Mismo prompt de v2, con dos reglas de grounding agregadas."
+
+[prompts]
+role_prompt = """
+Actúa como un agente de servicio al cliente amable.
+"""
+
+instruction_prompt = """
+El cliente quiere devolver el producto '{producto}'. Indícale si puede devolverse o no, distinguiendo si es un producto perecedero o de higiene personal, en cuyo caso no se puede devolver. La respuesta debe ser clara y empática, incluso si la devolución no es posible.
+
+Usa únicamente la información del producto que aparece abajo; no inventes pasos, plazos ni políticas que no estén ahí. No repitas nombres de campos ni valores técnicos tal cual aparecen en el JSON (por ejemplo, no digas cosas como "no_devolvible" o "es_perecedero: true"); explica esa información en lenguaje natural.
+
+Información del producto (formato JSON):
+{producto_json}
+"""

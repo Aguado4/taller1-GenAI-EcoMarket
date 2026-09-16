@@ -22,6 +22,7 @@ import json
 import os
 import sys
 import unicodedata
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -157,10 +158,12 @@ def _call_and_report(exercise: str, prompt_data: dict, user_message: str, identi
     print(output)
 
     OUTPUTS_DIR.mkdir(exist_ok=True)
-    safe_identifier = identifier.replace(" ", "_").replace("/", "-")
-    output_file = OUTPUTS_DIR / f"{exercise}_v{version}_{safe_identifier}.txt"
-    output_file.write_text(output, encoding="utf-8")
-    print(f"\n(Guardado en {output_file})")
+    output_file = OUTPUTS_DIR / f"{exercise}_v{version}.txt"
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    entry = f"{'=' * 60}\n[{timestamp}] {exercise} v{version} | consulta: {identifier}\n{'=' * 60}\n{output}\n\n"
+    with output_file.open("a", encoding="utf-8") as f:
+        f.write(entry)
+    print(f"\n(Agregado a {output_file})")
 
 
 def main() -> None:

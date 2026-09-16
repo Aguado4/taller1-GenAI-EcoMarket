@@ -1,22 +1,30 @@
-# Versión 2 — TODO: escribe aquí tu prompt mejorado.
+# Versión 2 — "Ejemplo de prompt mejorado" literal del PDF (Taller 1.pdf, Fase 3).
 #
-# Placeholders disponibles (se reemplazan en app.py, no usan str.format):
-#   {tracking_number}  -> número de seguimiento consultado
-#   {pedidos_json}     -> contenido de data/pedidos.json como texto JSON
+# Texto original del enunciado:
+#   "Actúa como un agente de servicio al cliente amable. Proporciona el
+#   estado actual del pedido con el número de seguimiento
+#   '{{tracking_number}}'. Incluye una estimación de la fecha de entrega y
+#   un enlace para rastrear el paquete en tiempo real. Si el pedido está
+#   retrasado, ofrece una disculpa y una breve explicación."
 #
-# Ideas para mejorar sobre v1 (ver prompt-engineering-sample/README.md):
-# role prompting, delimitadores, few-shot, reglas condicionales, chain-of-thought...
+# Se agrega {pedidos_json} porque el propio enunciado exige "crear y
+# agregar al prompt... un documento/texto con el estado de 10 pedidos como
+# mínimo" para que el modelo tenga de dónde responder; sin eso, incluso
+# este prompt "mejorado" seguiría alucinando por falta de datos.
 
 [meta]
 version = 2
-tecnica = "TODO"
-descripcion = "TODO"
+tecnica = "Prompt mejorado literal del enunciado (rol + instrucciones de formato) + datos"
+descripcion = "Texto tal cual lo da el PDF como 'ejemplo de prompt mejorado', con la base de datos de pedidos agregada como exige el enunciado."
 
 [prompts]
 role_prompt = """
-TODO
+Actúa como un agente de servicio al cliente amable.
 """
 
 instruction_prompt = """
-TODO
+Proporciona el estado actual del pedido con el número de seguimiento '{tracking_number}'. Incluye una estimación de la fecha de entrega y un enlace para rastrear el paquete en tiempo real. Si el pedido está retrasado, ofrece una disculpa y una breve explicación.
+
+Base de datos de pedidos (formato JSON):
+{pedidos_json}
 """

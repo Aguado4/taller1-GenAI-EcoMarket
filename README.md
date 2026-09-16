@@ -5,9 +5,9 @@ estructurada en sus tres fases.
 
 | Fase | Entregable |
 |---|---|
-| 1 — Selección y justificación del modelo | [`respuestas/fase1_seleccion_modelo.md`](./respuestas/fase1_seleccion_modelo.md) (pendiente) |
-| 2 — Fortalezas, limitaciones y riesgos éticos | [`respuestas/fase2_fortalezas_riesgos.md`](./respuestas/fase2_fortalezas_riesgos.md) (pendiente) |
-| 3 — Ingeniería de prompts | código de este repositorio (`prompts/`, `app.py`) — v1 listo, v2 pendiente de escribir |
+| 1 — Selección y justificación del modelo | [`respuestas/fase1_seleccion_modelo.md`](./respuestas/fase1_seleccion_modelo.md) |
+| 2 — Fortalezas, limitaciones y riesgos éticos | [`respuestas/fase2_fortalezas_riesgos.md`](./respuestas/fase2_fortalezas_riesgos.md) |
+| 3 — Ingeniería de prompts | [`respuestas/fase3_ingenieria_prompts.md`](./respuestas/fase3_ingenieria_prompts.md) + código de este repositorio (`prompts/`, `app.py`) |
 
 ## Estructura del repositorio
 
@@ -15,19 +15,16 @@ estructurada en sus tres fases.
 taller 1 genAI/
 ├── Taller 1.pdf                          # Enunciado original
 ├── respuestas/
-│   ├── fase1_seleccion_modelo.md         # Fase 1 (TODO)
-│   └── fase2_fortalezas_riesgos.md       # Fase 2 (TODO)
+│   ├── fase1_seleccion_modelo.md         # Fase 1
+│   ├── fase2_fortalezas_riesgos.md       # Fase 2
+│   └── fase3_ingenieria_prompts.md       # Fase 3: historial de versiones + hallazgos
 ├── data/
 │   ├── pedidos.json                      # "Base de datos" de prueba: 10 pedidos
 │   └── productos.json                    # Catálogo con política de devolución por producto
 ├── prompts/
-│   ├── pedido/
-│   │   ├── v1.toml                       # Línea base: prompt básico del enunciado
-│   │   └── v2.toml                       # TODO: prompt mejorado
-│   └── devolucion/
-│       ├── v1.toml                       # Línea base: prompt básico del enunciado
-│       └── v2.toml                       # TODO: prompt mejorado
-├── outputs/                              # Se genera al correr app.py (evidencia de las corridas)
+│   ├── pedido/                           # v1 (básico) ... v6 (grounding + few-shot + nombre del cliente)
+│   └── devolucion/                       # v1 (básico) ... v4 (grounding + few-shot)
+├── outputs/                              # Se genera al correr app.py (evidencia de las corridas, una por versión)
 ├── prompt_loader.py                      # Resuelve automáticamente la última versión del prompt
 ├── app.py                                # CLI de la Fase 3
 ├── requirements.txt
@@ -109,7 +106,9 @@ python app.py pedido --tracking TRK-1003 --version 2    # mejorado
 ```
 
 Sin `--version`, siempre se usa la versión más alta disponible. Cada corrida
-se guarda en `outputs/<ejercicio>_v<version>_<id>.txt`.
+se agrega (append) a `outputs/<ejercicio>_v<version>.txt`, con un
+separador y timestamp por corrida — un solo archivo por versión que
+acumula todas las pruebas hechas contra esa versión.
 
 ## Versionamiento y trazabilidad de prompts
 
@@ -130,12 +129,14 @@ plantillas solo sustituye los placeholders que el archivo realmente
 contiene, una versión puede omitir `{pedidos_json}` (como hace `pedido/v1`)
 para servir de línea base sin contexto.
 
-## Técnicas de prompt engineering disponibles como referencia
+## Técnicas de prompt engineering aplicadas
 
-Ver `prompt-engineering-sample/README.md` (carpeta hermana a este repo)
-para ejemplos de role prompting, delimitadores, few-shot, chain-of-thought
-y salida estructurada — son la base para escribir los `v2.toml` de este
-taller.
+Ver [`respuestas/fase3_ingenieria_prompts.md`](./respuestas/fase3_ingenieria_prompts.md)
+para el historial completo de versiones y los hallazgos de cada una
+(incluida una regresión real detectada y corregida en `pedido`). Como
+referencia general, `prompt-engineering-sample/README.md` (carpeta
+hermana a este repo) tiene más ejemplos de role prompting, delimitadores,
+few-shot, chain-of-thought y salida estructurada.
 
 La estructura del proyecto (prompts en archivos de configuración separados
 del código, y las técnicas de few-shot, delimitadores y chain-of-thought)

@@ -1,22 +1,28 @@
-# Versión 2 — TODO: escribe aquí tu prompt mejorado.
+# Versión 2 — Misma estructura que pedido/v2.toml (rol + instrucción del
+# desafío del enunciado + datos), pero para el Ejercicio 2.
 #
-# Placeholders disponibles (se reemplazan en app.py, no usan str.format):
-#   {producto}       -> nombre del producto consultado
-#   {producto_json}  -> entrada correspondiente de data/productos.json como texto JSON
-#
-# Desafío del enunciado: distinguir productos devolvibles de los que no
-# (perecederos, higiene), con una respuesta clara y empática en ambos casos.
+# El PDF no da un "ejemplo de prompt mejorado" literal para este ejercicio
+# como sí lo hace para el de pedido; solo describe el desafío:
+#   "Diseñar el prompt para que el modelo sea capaz de distinguir entre
+#   productos que pueden devolverse y los que no (ej: productos
+#   perecederos, productos de higiene). La respuesta debe ser clara y
+#   empática, incluso si la devolución no es posible."
+# Esta versión convierte ese desafío en instrucción, siguiendo el mismo
+# patrón simple (rol + instrucción + datos) que usa pedido/v2.toml.
 
 [meta]
 version = 2
-tecnica = "TODO"
-descripcion = "TODO"
+tecnica = "Rol + instrucción del desafío del enunciado + datos (mismo patrón que pedido/v2)"
+descripcion = "Prompt simple: rol de agente amable, instrucción basada en el desafío del PDF, y la información del producto como datos."
 
 [prompts]
 role_prompt = """
-TODO
+Actúa como un agente de servicio al cliente amable.
 """
 
 instruction_prompt = """
-TODO
+El cliente quiere devolver el producto '{producto}'. Indícale si puede devolverse o no, distinguiendo si es un producto perecedero o de higiene personal, en cuyo caso no se puede devolver. La respuesta debe ser clara y empática, incluso si la devolución no es posible.
+
+Información del producto (formato JSON):
+{producto_json}
 """

@@ -1,0 +1,27 @@
+# Versión 3 — Igual a v2 (texto literal del PDF + base de datos), más dos
+# constraints de grounding que el PDF no pide explícitamente pero que son
+# necesarias para producción: no filtrar nombres/valores técnicos del
+# JSON tal cual, y no inventar nada que no esté en los datos.
+#
+# Motivación (ver evidencia en outputs/): al probar v2, el modelo a veces
+# repetía nombres de campos internos (ej. "no_devolvible") o inventaba
+# pasos que no estaban en los datos. Estas dos frases lo corrigen.
+
+[meta]
+version = 3
+tecnica = "v2 + constraints anti-fuga de datos internos y anti-alucinación"
+descripcion = "Mismo prompt de v2 (literal del enunciado), con dos reglas de grounding agregadas."
+
+[prompts]
+role_prompt = """
+Actúa como un agente de servicio al cliente amable.
+"""
+
+instruction_prompt = """
+Proporciona el estado actual del pedido con el número de seguimiento '{tracking_number}'. Incluye una estimación de la fecha de entrega y un enlace para rastrear el paquete en tiempo real. Si el pedido está retrasado, ofrece una disculpa y una breve explicación.
+
+Usa únicamente la información de la base de datos de pedidos que aparece abajo; no inventes ni asumas ningún dato que no esté ahí. No repitas nombres de campos ni valores técnicos tal cual aparecen en el JSON (por ejemplo, no digas cosas como "en_transito" o "retrasado: true"); explica esa información en lenguaje natural.
+
+Base de datos de pedidos (formato JSON):
+{pedidos_json}
+"""

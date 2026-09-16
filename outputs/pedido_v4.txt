@@ -1,0 +1,41 @@
+============================================================
+[2026-09-15 19:20:41] pedido v4 | consulta: TRK-1003
+============================================================
+Tu pedido TRK-1003 se encuentra actualmente en tránsito. La fecha estimada de entrega es el 2026‑09‑08. Puedes seguir su recorrido en tiempo real en el siguiente enlace de rastreo: https://ecomarket.com/rastreo/TRK-1003.  
+
+Lamentamos informarte que el envío está retrasado debido a congestión en el centro de distribución regional. Pedimos disculpas por el inconveniente y estamos trabajando para que llegue lo antes posible.
+
+============================================================
+[2026-09-15 19:20:59] pedido v4 | consulta: TRK-1005
+============================================================
+Tu pedido **TRK-1005** fue cancelado, según quedó registrado a solicitud tuya.  
+La fecha estimada de entrega era el **2026‑08‑22**.  
+Puedes seguir su recorrido en tiempo real en el siguiente enlace de rastreo:  
+[https://ecomarket.com/rastreo/TRK-1005](https://ecomarket.com/rastreo/TRK-1005).  
+
+Si deseas realizar un nuevo pedido o tienes alguna duda, estoy aquí para ayudarte.
+
+============================================================
+[2026-09-15 19:21:17] pedido v4 | consulta: TRK-1010
+============================================================
+Tu pedido TRK‑1010 ya fue entregado el 29 de agosto de 2026.  
+La fecha estimada de entrega era el 24 de agosto, pero el paquete llegó cinco días después. Lamentamos el retraso, que se debió a que la dirección estaba incompleta y requirió una reconfirmación.  
+
+Puedes consultar el historial de envío y ver los detalles en tiempo real en el siguiente enlace:  
+[https://ecomarket.com/rastreo/TRK-1010](https://ecomarket.com/rastreo/TRK-1010)
+
+============================================================
+[2026-09-15 19:21:33] pedido v4 | consulta: TRK-1004
+============================================================
+Tu pedido TRK‑1004 está en proceso de preparación. La fecha estimada de entrega es el 2026‑09‑18. Puedes seguir su recorrido en tiempo real en el siguiente enlace de rastreo: https://ecomarket.com/rastreo/TRK-1004.
+
+============================================================
+[2026-09-15 19:21:51] pedido v4 | consulta: trk-1003
+============================================================
+Tu pedido de jabón artesanal de avena está en tránsito. Lamentamos informarte que ha sufrido un retraso debido a una congestión en el centro de distribución regional. La fecha estimada de entrega es el 8 de septiembre de 2026. Puedes seguir su recorrido en tiempo real en el siguiente enlace: https://ecomarket.com/rastreo/TRK-1003
+
+============================================================
+[2026-09-15 19:22:10] pedido v4 | consulta: TRK-7777
+============================================================
+Lo siento, pero no encontramos ningún pedido con el número de seguimiento **TRK-7777** en nuestro sistema. Si crees que hubo un error al proporcionar el número, por favor verifica la información y envíanos el número correcto para poder ayudarte.
+

@@ -1,0 +1,147 @@
+============================================================
+[2026-09-15 19:25:53] devolucion v1 | consulta: Champú sólido natural
+============================================================
+**Respuesta al cliente**
+
+El champú sólido natural se encuentra bajo la política de devolución **“no_devolvible_si_abierto”**.  
+Esto significa que:
+
+1. **Solo se puede devolver si el producto está completamente sin abrir**.  
+2. El plazo de devolución establecido es **0 días** desde la entrega, lo que indica que no existe un período de devolución después de la compra.
+
+**Conclusión:**  
+- Si el champú ya ha sido abierto, **no se puede devolver**.  
+- Si el champú está sin abrir, la política indica que no hay tiempo disponible para devolverlo (0 días), por lo que tampoco se aceptaría una devolución bajo las condiciones actuales.
+
+**Qué puede hacer el cliente:**
+
+- **Revisar el embalaje**: Si el producto está sin abrir, puede conservarlo y usarlo sin problema.  
+- **Contactar al servicio de atención al cliente**: Si tiene alguna duda o necesita asistencia (por ejemplo, si el producto llegó dañado o con defectos de fabricación), puede comunicarse con nuestro equipo de soporte para evaluar una posible excepción o solución alternativa.
+
+Si necesita ayuda para contactar al servicio de atención al cliente o tiene alguna otra pregunta, no dude en decírmelo.
+
+============================================================
+[2026-09-15 19:25:55] devolucion v1 | consulta: Mochila de fibras recicladas 20L
+============================================================
+**Sí, el cliente puede devolver la mochila de fibras recicladas de 20 L.**  
+La política de devoluciones indica que el producto es *devolvible* y que el cliente tiene **30 días** a partir de la fecha de entrega para solicitar la devolución.
+
+### Pasos que debe seguir el cliente
+
+1. **Verificar el plazo**  
+   - Asegúrate de que la solicitud de devolución se realice dentro de los 30 días posteriores a la recepción del pedido.
+
+2. **Contactar al servicio de atención al cliente**  
+   - Envíanos un correo a **devoluciones@tienda.com** o llama al **+34 900 123 456**.  
+   - Indica el número de pedido, el motivo de la devolución y solicita el número de autorización de devolución (RMA).
+
+3. **Recibir la etiqueta de devolución**  
+   - Una vez aprobada la solicitud, recibirás una etiqueta de envío prepagada por correo electrónico.  
+   - Imprime la etiqueta y pégala en el paquete.
+
+4. **Empaquetar el producto**  
+   - Coloca la mochila en su embalaje original (si lo tienes).  
+   - Añade el recibo de compra y cualquier documento que haya venido con el pedido.  
+   - Asegúrate de que el producto esté en condiciones de reventa: sin uso, sin daños y con todas las piezas originales.
+
+5. **Envío**  
+   - Lleva el paquete a la oficina de correos o a la sucursal de la transportista indicada en la etiqueta.  
+   - Guarda el número de seguimiento que te proporcionen.
+
+6. **Seguimiento**  
+   - Una vez que recibamos el paquete, procesaremos la devolución y te notificaremos por correo electrónico.  
+   - El reembolso se realizará a la misma forma de pago que utilizaste al comprar, en un plazo de 7–10 días hábiles.
+
+### Información adicional
+
+- **Condiciones**: La mochila debe estar sin usar y en su embalaje original.  
+- **Excepciones**: Si el producto llega dañado o diferente a lo pedido, también puedes solicitar la devolución siguiendo los mismos pasos; en ese caso, te ofreceremos un reembolso completo o un reemplazo.
+
+Si necesitas ayuda adicional o tienes alguna duda, no dudes en contactarnos. ¡Estamos aquí para ayudarte!
+
+============================================================
+[2026-09-15 19:26:01] devolucion v1 | consulta: Snack de frutas deshidratadas orgánico
+============================================================
+**Respuesta al cliente**
+
+> **¿Se puede devolver el Snack de frutas deshidratadas orgánico?**  
+> No. Según la política de la tienda, este producto es **no devolvible** y no cuenta con un período de devolución (0 días).  
+
+> **Qué debe hacer el cliente**  
+> 1. **Si el producto está defectuoso o no cumple con la descripción**:  
+>    - Contacte al servicio de atención al cliente lo antes posible.  
+>    - Envíe una foto del defecto y la descripción del problema.  
+>    - El equipo de soporte evaluará la situación y podrá ofrecer una solución (reemplazo, reembolso parcial, etc.).  
+> 2. **Si simplemente desea cambiar de opinión**:  
+>    - Lamentablemente, no se aceptan devoluciones por cambio de opinión.  
+>    - Puede conservar el producto o, si lo desea, donarlo a una organización local (si es posible).  
+
+> **Cómo contactar al servicio de atención al cliente**  
+> - **Teléfono**: +34 900 123 456  
+> - **Correo electrónico**: soporte@tiendaorgánica.com  
+> - **Chat en vivo**: disponible en la sección “Ayuda” de nuestro sitio web.  
+
+> Agradecemos su comprensión y quedamos a su disposición para cualquier otra consulta.
+
+============================================================
+[2026-09-15 19:26:04] devolucion v1 | consulta: Cepillo de dientes de bambú (paquete x4)
+============================================================
+**Respuesta al cliente**
+
+> **¿Se puede devolver el Cepillo de dientes de bambú (paquete x4)?**  
+> No, según la política de devoluciones de la tienda, este artículo es **“no devolvible”**.  
+>  
+> **Qué debe hacer el cliente**  
+> 1. **Contactar al servicio de atención al cliente** (correo: soporte@tienda.com o teléfono: +34 900 123 456) para informar sobre el problema o la insatisfacción con el producto.  
+> 2. El equipo de soporte revisará la situación y podrá ofrecer una **solución alternativa** (por ejemplo, un reembolso parcial, un crédito en tienda o un reemplazo, si corresponde).  
+> 3. Si el cliente necesita un reembolso, el proceso se iniciará una vez que el producto haya sido devuelto a nuestro almacén (en caso de que se autorice una excepción).  
+> 4. Si el cliente solo desea cancelar la compra antes de que se envíe, debe hacerlo lo antes posible a través de su cuenta en el sitio web o llamando al servicio de atención al cliente.
+
+> **Nota:** La política de devoluciones se aplica a todos los productos de la categoría “cuidado_personal” que no sean perecederos y que estén marcados como “no devolvible”. Por lo tanto, no se aceptan devoluciones ni cambios bajo la política estándar.  
+
+Si necesita más ayuda, no dude en comunicarse con nosotros. ¡Estamos aquí para ayudarle!
+
+============================================================
+[2026-09-15 19:26:11] devolucion v1 | consulta: Bolsas reutilizables de malla para mercado (set x5)
+============================================================
+Sí, el cliente puede devolver el producto.  
+El artículo **no es perecedero ni de higiene personal**, la política de devoluciones indica que es **devolvible** y el plazo máximo es **30 días** desde la fecha de entrega.
+
+### Pasos que debe seguir el cliente
+
+| Paso | Acción | Detalles |
+|------|--------|----------|
+| 1 | **Solicitar autorización de devolución** | Enviar un correo a **devoluciones@tusitio.com** (o usar el chat en la app) con el número de pedido y el motivo de la devolución. Se le enviará un número de autorización y las instrucciones específicas. |
+| 2 | **Empaquetar el producto** | • Utilizar la bolsa original o un empaque resistente. <br>• Incluir el producto en su estado original, sin usar, con todas las etiquetas y el embalaje original. |
+| 3 | **Imprimir la etiqueta de envío** | La etiqueta de devolución (incluida en el correo de autorización) debe imprimirse y pegarse en el paquete. |
+| 4 | **Enviar el paquete** | Llevar el paquete a la oficina de correos o a la sucursal de la empresa de mensajería indicada (por ejemplo, DHL, UPS, FedEx). Guardar el comprobante de envío. |
+| 5 | **Esperar la confirmación de recepción** | Una vez que el centro de devoluciones reciba el paquete, se verificará el estado del producto. |
+| 6 | **Procesar el reembolso** | Si el artículo está en condiciones aceptables, el reembolso se acreditará a la forma de pago original dentro de 5‑7 días hábiles. |
+
+### Información adicional
+
+- **Plazo**: El cliente debe iniciar la devolución **antes de los 30 días** desde la fecha de entrega.  
+- **Estado del producto**: El artículo debe estar sin usar, con todas las etiquetas y el empaque original.  
+- **Costos de envío**: En caso de que la devolución sea por defecto del producto (defectuoso, incorrecto, etc.), el envío será gratuito. Si la devolución es por cambio de opinión, el cliente cubrirá el costo de envío.  
+- **Contacto**: Para cualquier duda, el cliente puede llamar al **+34 900 123 456** o enviar un ticket a **soporte@tusitio.com**.
+
+Con estos pasos el cliente podrá devolver las bolsas reutilizables de malla sin problemas. ¡Gracias por elegirnos!
+
+============================================================
+[2026-09-15 19:26:15] devolucion v1 | consulta: Jabón artesanal de avena (paquete x3)
+============================================================
+**Respuesta:**
+
+Según la política de devoluciones de la tienda, el producto “Jabón artesanal de avena (paquete x3)” **no es devuelto si está abierto**. Además, el plazo de devolución es de **0 días**, lo que significa que no existe un período de devolución después de la entrega.
+
+**Conclusión:**  
+El cliente **no puede devolver** el jabón si ya lo ha abierto.  
+
+**Qué debe hacer el cliente:**
+
+1. **Mantener el producto**: Si el jabón está en buen estado y no presenta defectos, se recomienda conservarlo.
+2. **Contactar al servicio de atención al cliente**: Si el cliente cree que hay un error (por ejemplo, el producto llegó dañado o con defectos de fabricación), puede comunicarse con el servicio de atención al cliente para solicitar una solución (reemplazo, crédito, etc.).  
+3. **Revisar la política de garantía**: Si el producto tiene algún defecto de fabricación, puede estar cubierto por la garantía de la tienda, aunque no por la política de devoluciones.
+
+En resumen, **no se aceptará la devolución** del jabón si está abierto y no hay un plazo de devolución establecido.
+

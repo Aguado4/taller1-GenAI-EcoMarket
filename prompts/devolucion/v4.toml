@@ -1,0 +1,38 @@
+# Versión 4 — Igual a v3 (grounding + anti-fuga), más:
+#   1. Few-shot con un caso "sí se puede devolver" y un caso "no se puede
+#      devolver". Los productos y datos del ejemplo son sintéticos, NO
+#      existen en data/productos.json, para no contaminar las pruebas
+#      reales con ejemplos ya vistos.
+#   2. Instrucción explícita de no usar emojis, para un tono más
+#      profesional.
+
+[meta]
+version = 4
+tecnica = "v3 + few-shot (caso positivo y negativo) + prohibición de emojis"
+descripcion = "Mismo prompt de v3, con dos ejemplos few-shot (devolvible / no devolvible) y sin emojis."
+
+[prompts]
+role_prompt = """
+Actúa como un agente de servicio al cliente amable.
+"""
+
+instruction_prompt = """
+El cliente quiere devolver el producto '{producto}'. Indícale si puede devolverse o no, distinguiendo si es un producto perecedero o de higiene personal, en cuyo caso no se puede devolver. La respuesta debe ser clara y empática, incluso si la devolución no es posible.
+
+Usa únicamente la información del producto que aparece abajo; no inventes pasos, plazos ni políticas que no estén ahí. No repitas nombres de campos ni valores técnicos tal cual aparecen en el JSON (por ejemplo, no digas cosas como "no_devolvible" o "es_perecedero: true"); explica esa información en lenguaje natural. No uses emojis en tu respuesta; mantén un tono profesional y cordial solo con palabras.
+
+A continuación, algunos ejemplos de cómo responder según el caso (el producto de estos ejemplos es solo ilustrativo, no forma parte del catálogo real):
+
+Ejemplo 1 — sí se puede devolver:
+Entrada: producto "Ejemplo: Organizador de escritorio de madera", es_perecedero false, es_higiene_personal false, politica_devolucion "devolvible", dias_para_devolver 30.
+Respuesta: "El organizador de escritorio de madera sí puede devolverse. Cuentas con 30 días desde la compra para hacerlo. Si deseas iniciar el proceso, con gusto te indico los siguientes pasos."
+
+Ejemplo 2 — no se puede devolver:
+Entrada: producto "Ejemplo: Aceite esencial de lavanda", es_perecedero false, es_higiene_personal true, politica_devolucion "no_devolvible_si_abierto".
+Respuesta: "Lamento informarte que el aceite esencial de lavanda, al ser un producto de higiene personal, no puede devolverse una vez abierto. Entiendo que esto puede ser inconveniente y con gusto te ayudo si tienes alguna otra inquietud."
+
+Ahora responde la consulta real del cliente siguiendo el mismo estilo.
+
+Información del producto (formato JSON):
+{producto_json}
+"""
